@@ -1,0 +1,17 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "wget -N https://raw.githubusercontent.com/Misaka-blog/v2ray-for-deepnote/main/deep-vless.sh && bash deep-vless.sh": {
+      "name": "wget -N https://raw.githubusercontent.com/Misaka-blog/v2ray-for-deepnote/main/deep-vless.sh && bash deep-vless.sh",
+      "command": "wget -N https://raw.githubusercontent.com/Misaka-blog/v2ray-for-deepnote/main/deep-vless.sh && bash deep-vless.sh",
+      "runAtStart": true
+    },
+    "wget -N https://raw.githubusercontent.com/Misaka-blog/v2ray-for-deepnote/main/deep.sh && bash deep.sh": {
+      "name": "wget -N https://raw.githubusercontent.com/Misaka-blog/v2ray-for-deepnote/main/deep.sh && bash deep.sh",
+      "command": "wget -N https://raw.githubusercontent.com/Misaka-blog/v2ray-for-deepnote/main/deep.sh && bash deep.sh"
+    }
+  }
+}
